@@ -1,0 +1,76 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rebeccapurple;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#img-log{
+    width: 20%;
+    border-radius: 2rem;
+}
+
+#container h1{
+    margin-top: 10px;
+}
+
+#box{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    width: 70%;
+    background-color: wheat;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: rebeccapurple;
+}
+
+#form-log{
+    width: 100%;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#input-log{
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+}
+
+#btn-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: rebeccapurple;
+    color: white;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+#btn-log:hover {
+    background-color: wheat;
+    color: black;
+    transition: all 0.5s;
+}
+
+

@@ -1,0 +1,21 @@
+.messageBox{
+    background-color: gainsboro;
+    width: 50%;
+    padding: 1vmax;
+    margin: 1.8vmax;
+    border-radius: .5vmax;
+    display: inline-block;
+    clear: both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.right{
+    float: right;
+    background-color: royalblue;
+    color: white;
+}
+
+.left{
+    float: left;
+    background-color: rgb(184, 255, 194);
+}
